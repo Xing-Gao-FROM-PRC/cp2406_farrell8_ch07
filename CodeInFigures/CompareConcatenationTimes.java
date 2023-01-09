@@ -1,7 +1,5 @@
-public class CompareConcatenationTimes
-{
-   public static void main(String[] args)
-   {
+public class CompareConcatenationTimes{
+   public static void main(String[] args){
       long startTime1, startTime2,
          endTime1, endTime2;
       final int TIMES = 20000;

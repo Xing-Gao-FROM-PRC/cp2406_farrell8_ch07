@@ -1,8 +1,6 @@
 import java.util.Scanner;
-public class TryToCompareStrings
-{
-   public static void main(String[] args)
-   {
+public class TryToCompareStrings{
+   public static void main(String[] args){
       String aName = "Carmen";
       String anotherName;
       Scanner input = new Scanner(System.in);

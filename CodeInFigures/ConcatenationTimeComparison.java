@@ -1,8 +1,6 @@
 import java.time.*;
-public class ConcatenationTimeComparison
-{
-   public static void main(String[] args)
-   {
+public class ConcatenationTimeComparison{
+   public static void main(String[] args){
       int startTime, endTime;
       final int TIMES = 200_000;
       final int FACTOR = 1_000_000;

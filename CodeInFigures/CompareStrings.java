@@ -1,8 +1,6 @@
 import java.util.Scanner;
-public class CompareStrings
-{
-   public static void main(String[] args)
-   {
+public class CompareStrings{
+   public static void main(String[] args){
       String aName = "Carmen";
       String anotherName;
       Scanner input = new Scanner(System.in);

@@ -1,8 +1,6 @@
 import java.util.Scanner;
-public class TestCharacter
-{
-   public static void main(String[] args)
-   {
+public class TestCharacter{
+   public static void main(String[] args){
       char aChar;
       String aString;
       Scanner keyboard = new Scanner(System.in);

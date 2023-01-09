@@ -1,8 +1,6 @@
 import javax.swing.*;
-public class BusinessLetter
-{
-   public static void main(String[] args)
-   {
+public class BusinessLetter{
+   public static void main(String[] args){
       String name;
       String firstName = "";
       String familyName = "";
@@ -11,10 +9,8 @@ public class BusinessLetter
       name = JOptionPane.showInputDialog(null,
          "Please enter customer's first and last name");
       x = 0;
-      while(x < name.length())
-      {
-         if(name.charAt(x) == ' ')
-         {
+      while(x < name.length()){
+         if(name.charAt(x) == ' '){
             firstName = name.substring(0, x);
             familyName = name.substring(x + 1, name.length());
             x = name.length();
